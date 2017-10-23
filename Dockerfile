@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM easypi/alpine-arm:3.6
 MAINTAINER "Carlos Troncoso Phillips"
 
 RUN    echo "@community http://dl-4.alpinelinux.org/alpine/v3.6/community/" >> /etc/apk/repositories \
